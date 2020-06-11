@@ -1,4 +1,5 @@
-// Ation creator
+
+// Action creator
 export const selectSong = (song) => {
     // Return an action
     return {
@@ -6,4 +7,3 @@ export const selectSong = (song) => {
         payload: song
     };
 };
-
